@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<title>
+		Reactie
+	</title>
+	<script type="text/javascript">
+	function RangeChange(){
+	var value = document.getElementById("vote").value;
+	document.getElementById("range").value=value;
+	}
+	</script>
+</head>
+<body>
+<form action="reactie.php" method="post" id="reactie">
+	<input value="2" type="hidden" name="id" id="id"></input>
+	<input value="restaurant" type="hidden" name="type" id="type"></input>
+	<input id="vote" name="vote" type="range" onchange="RangeChange()" step="0.1" min="1" max="10" value="6" required></input><input readonly value="6" style="border:none;" id="range" type="input"></input><br>
+	<textarea form="reactie" type="text" id="reactie" name="reactie" style="height:200px;width:200px;" required></textarea><br>
+	<input type="submit" value="Reageer!"></input>
+</form>
+</body>
+</html>

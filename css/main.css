@@ -1,0 +1,170 @@
+body,html       {
+			background:#ff9900;
+			margin:0;
+            height:100%;
+            font-family:'Open Sans';
+            font-size:12pt;
+			}
+#wrap             {
+            min-height:100%;
+            }
+header		{
+			background:#fff;
+			height:225px;
+			width:100%;
+            padding:10px 0px 0px;
+            -moz-box-sizing:border-box; 
+            -webkit-box-sizing:border-box; 
+            box-sizing:border-box;
+			}
+header img       {
+            max-width:100%;
+            width: 220px;
+            height:137px;
+            margin-top:15px;
+            border-radius:10px; 
+            }
+header .center         {
+            width:1000px;
+            margin:0px auto;
+            }
+nav			{
+			position:absolute;
+			background:#E6E9ED;
+			top:175px;
+			height:50px;
+			width:100%;
+			}
+nav ul          	{
+			list-style-type:none;
+            padding:0px;
+			}
+nav #item1:hover, nav ul #item1.current {
+ background:#DF01A5;
+}
+nav #item2:hover, nav ul #item2.current {
+ background:#8904B1;
+}
+nav #item3:hover, nav ul #item3.current {
+ background:#0174DF;
+}
+nav #item4:hover, nav ul #item4.current {
+ background:#01DF3A;
+}
+nav #item5 {
+ background:#ffff00;
+}
+nav #item6:hover, nav ul #item6.current {
+ background:#ff9900;
+}
+nav ul li:hover a, nav ul .current a {
+            color:#fff;
+			}
+nav ul li          	{
+            float:left;
+            padding:0px 20px;
+            cursor:pointer;
+            line-height:50px;
+            transition:0.3s all ease-out;
+            letter-spacing:1.5px;
+			}
+nav ul li a       	{
+            text-decoration:none;
+            color:#000;
+			}
+#content        {
+            background:#fff;
+            width:1000px;
+            margin:0px auto 25px;
+            padding:25px;
+            -moz-box-sizing:border-box; 
+            -webkit-box-sizing:border-box; 
+            box-sizing:border-box;
+            color:#000;
+            border-radius:0px 0px 10px 10px;
+            }
+#content a     {
+            color:#434A54;
+            }
+#content hr   {
+            border:1px solid #eee;
+            margin:25px 0px;
+            }
+#pusher         {
+            height:75px;
+            }
+footer              {
+            position:relative;
+			background:#E6E9ED;
+			width:1000px;
+            height:75px;
+            margin:-75px auto 0px;
+            color:#000;
+            padding:10px 25px 0px;
+            -moz-box-sizing:border-box; 
+            -webkit-box-sizing:border-box; 
+            box-sizing:border-box;
+            border-radius:10px 10px 0px 0px ;
+            }
+footer a            {
+            color:#000;
+            }
+footer  .left   {
+            float:left;
+            }
+footer  .right  {
+            float:right;
+            } 
+input[type=search] {
+	border:0px;
+	height:50px;
+	background:none;
+	font-size:12pt;
+	font-family:Open Sans;
+	width:100%;
+}			
+@media (max-width:1020px)	{
+			#content      {
+                        width:auto;
+                        margin:0px 10px 25px;
+                        }
+			footer              {
+                        width:auto;
+                        margin:-75px 10px 0px;
+                        }
+            header .center  {
+                        width:auto;
+                        margin:0px 10px 25px;
+                        }
+        	nav ul li  {
+            	letter-spacing:0px;
+        	}
+}
+@media (max-width:900px)	{
+            #login          {
+                        margin:0px;
+                        float:none;
+                        display:block;
+                        }
+			footer              {
+                        height:125px;
+                        }
+            footer  .left   {
+                        float:none;
+                        }
+            footer  .right   {
+                        float:none;
+                        }
+            header		{
+                        height:475px;
+                        padding:10px 0px 0px;
+                        }
+            nav			{
+                        height:300px;
+                        top:175px;
+                        }
+            nav ul li          	{
+                        float:none;
+                        border-right:0px;
+                        }
+}

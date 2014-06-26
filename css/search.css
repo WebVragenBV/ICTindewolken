@@ -1,0 +1,13 @@
+.result {
+    display:block;
+    text-decoration:none }
+.result:hover {
+    text-decoration:underline }
+.title {
+    text-transform:capitalize }
+.result,.title,.description,.location {
+    display:block }
+.title {
+    font-weight:bold }
+.location {
+    font-style:italic }
