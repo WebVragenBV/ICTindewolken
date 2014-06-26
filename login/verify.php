@@ -1,3 +1,7 @@
+/*
+TEST
+*/
+
 <?PHP
 include'../security/session.inc.php';
 include '../connect.php';
